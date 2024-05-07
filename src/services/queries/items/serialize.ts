@@ -5,5 +5,5 @@ export const serialize = (attrs: CreateItemAttrs) => {
 		...attrs,
 		createdAt: attrs.createdAt.toMillis(),
 		endingAt: attrs.endingAt.toMillis()
-	}
+	};
 };
